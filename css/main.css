@@ -1,7 +1,57 @@
 html {
 	box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  color: #fff;
 }
 
 *, *::before, *::after {
 	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+  background-color: #d05c2e;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.5em;
+  font-size: 2rem;
+  text-align: center;
+}
+
+nav {
+  display: block;
+  padding: 0.1em;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  padding: 2em;
+}
+
+.img-left {
+  float: left;
+  width: 50px;
+  margin: 1em;
+}
+
+.img-right {
+  float: right;
+  width: 50px;
+  margin: 1em;
 }
