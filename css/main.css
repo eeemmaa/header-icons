@@ -32,6 +32,8 @@ nav {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
 }
 
 nav li {
@@ -40,10 +42,16 @@ nav li {
   text-align: center;
   padding: 1em;
   margin: 0;
-  border-top: 1px solid #a63f38;
-  border-bottom: 1px solid #a63f38;
+  margin-left: 0;
   border-right: 1px solid #a63f38;
   background-color: #d05c2e;
+  float: left;
+  width: 33.33%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 nav li a {
@@ -52,6 +60,8 @@ nav li a {
   font-size: 1.125rem;
   padding: 2em;
   text-align: center;
+  margin-left: 0;
+  width: 100%;
 }
 
 .img-left {
@@ -66,7 +76,7 @@ nav li a {
   margin: 1em;
 }
 
-.blah {
-  float: left;
-  width: 33%;
+nav li:hover {
+  background-color: #a63f38;
+  margin-left: 0;
 }
